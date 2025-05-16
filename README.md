@@ -36,10 +36,6 @@ Theme and 3D images are all by <a href='https://www.blackspike.com'>blackspike</
 
 - [swiper.js](https://swiperjs.com/) carousel
 
-## Tags
-
-#tailwind #tailwind4 #astro #landingPage #css #html #swiper #dark #theme
-
 ## Previews
 
 [<img src="public/theme-preview/blackspike-theme-1.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto; width: 100%;" width="1600">](public/theme-preview/blackspike-theme-1.jpg)
@@ -50,6 +46,12 @@ Theme and 3D images are all by <a href='https://www.blackspike.com'>blackspike</
 
 [<img src="public/theme-preview/blackspike-theme-5.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto; width: 100%;" width="1600">](public/theme-preview/blackspike-theme-5.jpg)
 
+[<img src="public/theme-preview/blackspike-theme-full.webp" alt="full page preview" style="max-width: 100%; height: auto; width: 100%;" width="1600">](public/theme-preview/blackspike-theme-full.webp)
+
+
+## Tags
+
+#tailwind #tailwind4 #astro #landingPage #css #html #swiper #dark #theme
 
 
 ## Commands
