@@ -20,7 +20,6 @@ Theme and 3D images are all by <a href='https://www.blackspike.com'>blackspike</
 - All-[JSX](https://docs.astro.build/en/reference/astro-syntax/) native astro components
 - SVGs imported as [SVG components](https://docs.astro.build/en/guides/images/#svg-components)
 - JSON-powered content (easy to edit UI text or hook up a CMS!)
-- 100% lighthouse scores
 - Experimental [Fonts API](https://docs.astro.build/en/reference/experimental-flags/fonts/)
 
 ## CSS & HTML Features
