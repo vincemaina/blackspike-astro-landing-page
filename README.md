@@ -43,13 +43,13 @@ Theme and 3D images are all by <a href='https://www.blackspike.com'>blackspike</
 
 ## Previews
 
-[<img src="public/theme-preview/blackspike-theme-1.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto; width: 100%;" width="1600" height="900">](public/theme-preview/blackspike-theme-1.jpg)
+[<img src="public/theme-preview/blackspike-theme-1.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto; width: 100%;" width="1600">](public/theme-preview/blackspike-theme-1.jpg)
 
-[<img src="public/theme-preview/blackspike-theme-2.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto; width: 100%;" width="1600" height="900">](public/theme-preview/blackspike-theme-2.jpg)
+[<img src="public/theme-preview/blackspike-theme-2.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto; width: 100%;" width="1600">](public/theme-preview/blackspike-theme-2.jpg)
 
-[<img src="public/theme-preview/blackspike-theme-4.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto; width: 100%;" width="1600" height="900">](public/theme-preview/blackspike-theme-4.jpg)
+[<img src="public/theme-preview/blackspike-theme-4.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto; width: 100%;" width="1600">](public/theme-preview/blackspike-theme-4.jpg)
 
-[<img src="public/theme-preview/blackspike-theme-5.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto; width: 100%;" width="1600" height="900">](public/theme-preview/blackspike-theme-5.jpg)
+[<img src="public/theme-preview/blackspike-theme-5.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto; width: 100%;" width="1600">](public/theme-preview/blackspike-theme-5.jpg)
 
 
 
