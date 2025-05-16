@@ -1,16 +1,16 @@
 # blackspike astro landing page
 
-[<img src="public/theme-preview/github-preview.png" alt="screens showing theme parts on iPads" style="max-width: 100%; height: auto" width="1600" height="900">](public/theme-preview/github-preview.png)
+[<img src="public/theme-preview/github-preview.png" alt="screens showing theme parts on iPads" style="max-width: 100%; height: auto; width: 100%;" width="1600">](public/theme-preview/github-preview.png)
 
 ## A free, modern, [Astro](https://astro.build/) landing page theme made with [Tailwind](https://tailwindcss.com/) to help kick start your next Astro project
-
-Live demo https://astro-theme.blackspike.com
 
 We built this page as the first version of our own website, [blackspike.com](https://www.blackspike.com), but switched to a different design later.
 
 Rather than let it gather dust we should modernise it, try out some fresh new CSS features and give it back to the Astro community.
 
 We hope you find it useful!
+
+## Live demo https://astro-theme.blackspike.com
 
 Theme and 3D images are all by <a href='https://www.blackspike.com'>blackspike</a> and licensed under <a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0</a>
 
@@ -43,13 +43,13 @@ Theme and 3D images are all by <a href='https://www.blackspike.com'>blackspike</
 
 ## Previews
 
-[<img src="public/theme-preview/blackspike-theme-1.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto" width="1600" height="900">](public/theme-preview/blackspike-theme-1.jpg)
+[<img src="public/theme-preview/blackspike-theme-1.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto; width: 100%;" width="1600" height="900">](public/theme-preview/blackspike-theme-1.jpg)
 
-[<img src="public/theme-preview/blackspike-theme-2.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto" width="1600" height="900">](public/theme-preview/blackspike-theme-2.jpg)
+[<img src="public/theme-preview/blackspike-theme-2.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto; width: 100%;" width="1600" height="900">](public/theme-preview/blackspike-theme-2.jpg)
 
-[<img src="public/theme-preview/blackspike-theme-4.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto" width="1600" height="900">](public/theme-preview/blackspike-theme-4.jpg)
+[<img src="public/theme-preview/blackspike-theme-4.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto; width: 100%;" width="1600" height="900">](public/theme-preview/blackspike-theme-4.jpg)
 
-[<img src="public/theme-preview/blackspike-theme-5.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto" width="1600" height="900">](public/theme-preview/blackspike-theme-5.jpg)
+[<img src="public/theme-preview/blackspike-theme-5.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto; width: 100%;" width="1600" height="900">](public/theme-preview/blackspike-theme-5.jpg)
 
 
 
