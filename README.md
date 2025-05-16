@@ -4,6 +4,8 @@
 
 ## A free, modern, [Astro](https://astro.build/) landing page theme made with [Tailwind](https://tailwindcss.com/) to help kick start your next Astro project
 
+Live demo https://astro-theme.blackspike.com
+
 We built this page as the first version of our own website, [blackspike.com](https://www.blackspike.com), but switched to a different design later.
 
 Rather than let it gather dust we should modernise it, try out some fresh new CSS features and give it back to the Astro community.
