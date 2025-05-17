@@ -21,7 +21,7 @@ const { title, pricing } = Astro.props
     { pricing.map( ( item, index ) =>
 
     <article
-      class:list={['@container p-6 xl:p-16 flex flex-col gap-6 h-full w-full rounded-xl overflow-hidden  @xl:justify-end', index === 0 ? 'bg-white/90 text-black/90 lg:scale-90' : 'bg-bs-surface-0/90']}>
+      class:list={['@container p-6 xl:p-16 flex flex-col gap-6 h-full w-full rounded-xl overflow-hidden lg:scale-90 @xl:justify-end', index === 1 ? 'bg-white/90 text-black/90 lg:scale-none' : 'bg-bs-surface-0/90']}>
 
       <!-- Content -->
       <div class="relative">
@@ -30,8 +30,8 @@ const { title, pricing } = Astro.props
         <h2 class="bs-h3 flex gap-3 items-center">
 
           <!-- Icon -->
-          { index === 0 && <Cube height="32" width="32" />  }
-          { index !== 0 && <CubeOutline height="32" width="32" />  }
+          { index === 1 && <Cube height="32" width="32" />  }
+          { index !== 1 && <CubeOutline height="32" width="32" />  }
 
           <!-- Title -->
           <span>{ item.title }</span>
