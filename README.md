@@ -6,17 +6,17 @@
 
 We built this page as the first version of our own website, [blackspike.com](https://www.blackspike.com), but switched to a different design later.
 
-Rather than let it gather dust, we decided to modernise it, try out some fresh new CSS features and give it back to the Astro community under a Creative Commons Attribution 4.0 International Public License.
-
-We hope you find it useful!
+Rather than let it gather dust, we decided to modernise it, try out some fresh new CSS features and give it back to the Astro community.
 
 ## Live demo https://astro-theme.blackspike.com
 
-Theme and 3D images are all by <a href='https://www.blackspike.com'>blackspike</a> and licensed under <a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0</a>
+We hope you find it useful!
 
-## Created by blackspike
+## License
 
-[blackspike design](https://www.blackspike.com) is a web design & development team specialising in Astro, Vue, Nuxt & Wordpress websites
+Theme and 3D images are licensed under a [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/).
+
+Created by blackspike [blackspike design](https://www.blackspike.com) – a web design & development team specialising in Astro, Vue, Nuxt & Wordpress websites
 
 ## Astro 5 Features
 
@@ -58,6 +58,7 @@ Theme and 3D images are all by <a href='https://www.blackspike.com'>blackspike</
 - Quote avatar person by [thispersondoesnotexist.com](https://thispersondoesnotexist.com/)
 - Misc icons and logo from [icones.js.org](https://icones.js.org/) by [@antfu](https://github.com/antfu)
 - Carousel powered by [swiperjs.com](https://swiperjs.com/)
+- Inter font by [rsms.me](https://rsms.me/inter/)
 
 ## Tags
 

@@ -13,7 +13,13 @@
     },
     {
       "item": "Carousel powered by <a href='https://swiperjs.com/'>swiperjs.com</a>"
+    },
+    {
+      "item": "Inter font by <a href='https://rsms.me/inter/'>rsms.me</a>"
+    },
+    {
+      "item": "Theme and 3D images by <a href='https://www.blackspike.com'>blackspike ltd</a> are licensed under <a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0</a>"
+
     }
-  ],
-  "footer": "Theme and 3D images by <a href='https://www.blackspike.com'>blackspike ltd</a> are licensed under <a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0</a>"
+  ]
 }
