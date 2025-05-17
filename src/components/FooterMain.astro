@@ -9,10 +9,7 @@ const { settings } = Astro.props
 <footer class="@container bs-container my-24 font-semibold text-bs-foreground-dark [&_a]:hover:text-bs-foreground-light [&_a]:transition-color [&_a]:duration-150" id="contact">
 
   <!-- Wrapper -->
-  <div class="bg-bs-surface-2 p-6 md:p-16 rounded-xl">
-
-    <!-- Row -->
-    <div class="grid md:grid-cols-2 gap-8">
+  <div class="bg-bs-surface-2 p-6 md:p-16 rounded-xl grid md:grid-cols-2 gap-8">
 
       <!-- Left col -->
       <div class="w-max flex flex-col gap-8 md:gap-0 justify-between text-bs-foreground-light">
@@ -25,11 +22,11 @@ const { settings } = Astro.props
         </a>
 
         <!-- CTA title -->
-        <h2 class="bs-h3">{ settings.footer_demo_title  }</h2>
+        <h2 class="bs-h3">{ settings.demo.title  }</h2>
 
         <!-- CTA Button -->
         <button type="button" class="min-w-32 bs-btn block bg-bs-surface-3" onclick="demo.showModal()">
-          { settings.demo_title }
+          { settings.demo.cta }
         </button>
 
       </div>
@@ -39,6 +36,7 @@ const { settings } = Astro.props
 
         <!-- Nav -->
         <nav class="flex flex-col">
+
           { settings.nav.sort((a,b) => a.title.localeCompare(b.title)).map( item =>
 
             <a href={ item.link }>
@@ -46,10 +44,12 @@ const { settings } = Astro.props
             </a>
 
           )}
+
         </nav>
 
         <!-- Social links -->
         <nav class="flex flex-col">
+
           { settings.social_links.sort((a,b) => a.title.localeCompare(b.title)).map( item =>
 
             <a href={ item.link }>
@@ -57,11 +57,10 @@ const { settings } = Astro.props
             </a>
 
           )}
+
         </nav>
 
       </div>
-
-    </div>
 
   </div>
 

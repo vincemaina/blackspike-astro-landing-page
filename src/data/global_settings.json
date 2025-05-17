@@ -3,7 +3,11 @@
   "description": "A free Astro landing theme made with Tailwind",
   "social_image": "/1200x630.jpg",
   "base_url": "https://astro-theme.blackspike.com",
-  "demo_title": "Book a call",
+  "demo": {
+    "title": "Need design?",
+    "content": "<strong>Get a guided tour through our services</strong>, and find out how you and your team can change the way you work, forever.",
+    "cta": "Book a call"
+  },
   "theme_color": "#18181b",
   "nav": [
     {
@@ -27,8 +31,6 @@
       "link": "/#newsletter"
     }
   ],
-
-  "footer_demo_title": "Need design?",
 
   "social_links": [
     {

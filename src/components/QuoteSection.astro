@@ -8,8 +8,7 @@ const { content, image, cite, role } = Astro.props
 <blockquote class="bs-container bs-mt-lg font-display text-3xl md:text-5xl lg:text-6xl flex flex-col gap-6" id="quote">
 
   <!-- Text -->
-  <div set:html={ content }
-    class="text-bs-foreground-dark bs-st-quote [&_strong]:font-normal font-display" />
+  <div set:html={ content } class="text-bs-foreground-dark bs-st-quote [&_strong]:font-normal font-display" />
 
   <!-- Cite -->
   <cite class="not-italic flex gap-4 items-center">

@@ -12,9 +12,7 @@ import Image from "astro/components/Image.astro"
 import bg_image from "../assets/theme-images/hero-image.jpg"
 
 import global_settings from "../data/global_settings.json"
-import demo from "../data/demo.json"
 
-import DialogContentDemo from "../components/DialogContentDemo.astro"
 import DialogModal from "../components/DialogModal.astro"
 import FooterMain from "../components/FooterMain.astro"
 import HeaderMain from "../components/HeaderMain.astro"
@@ -70,9 +68,7 @@ const { title, description } = Astro.props
     <FooterMain settings={ global_settings } />
 
     <!-- Demo dialog modal -->
-    <DialogModal id="demo" title={ global_settings.footer_demo_title }>
-      <DialogContentDemo content={ demo } />
-    </DialogModal>
+    <DialogModal id="demo" content={ global_settings.demo }>
 
   </body>
 </html>

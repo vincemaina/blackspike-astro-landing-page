@@ -13,7 +13,9 @@ const { settings } = Astro.props
 
     <!-- Logo -->
     <a class="flex xl:min-w-32 group" href="/" aria-label={ settings.title + ' - Home' }>
+
       <Logo class="group-hover:-rotate-180 group-hover:scale-80 transition-transform ease-bs-spring duration-1000" height="48" width="48" />
+
     </a>
 
     <!-- Nav -->
@@ -33,7 +35,7 @@ const { settings } = Astro.props
     <!-- CTA -->
     <button type="button" class="min-w-32 bs-btn" onclick="demo.showModal()">
 
-      { settings.demo_title }
+      { settings.demo.title }
 
     </button>
 
