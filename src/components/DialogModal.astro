@@ -1,4 +1,5 @@
 ---
+import X from '../assets/theme-images/icon-x.svg'
 
 const { id, title } = Astro.props
 
@@ -16,11 +17,9 @@ const { id, title } = Astro.props
 
       <button onclick="this.closest('dialog').close('close')" aria-label="Close"
         class="bs-btn rounded-full !p-0 flex items-center justify-center h-10 w-10">
-        <svg xmlns="http://www.w3.org/2000/svg" class="scale-75 opacity-75" width="32" height="32"
-          viewBox="0 0 24 24">
-          <path fill="currentColor"
-            d="m12 13.4l-4.9 4.9q-.275.275-.7.275t-.7-.275t-.275-.7t.275-.7l4.9-4.9l-4.9-4.9q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l4.9 4.9l4.9-4.9q.275-.275.7-.275t.7.275t.275.7t-.275.7L13.4 12l4.9 4.9q.275.275.275.7t-.275.7t-.7.275t-.7-.275z" />
-        </svg>
+
+        <X class="scale-75 opacity-75" width="32" height="32" />
+
       </button>
 
     </h2>
