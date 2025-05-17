@@ -10,6 +10,10 @@ Rather than let it gather dust, we decided to modernise it, try out some fresh n
 
 We hope you find it useful!
 
+## Made by blackspike.com
+
+[blackspike design](https://www.blackspike.com) is a web design & development team specialising in Astro, Vue, Nuxt & Wordpress websites
+
 ## Live demo https://astro-theme.blackspike.com
 
 Theme and 3D images are all by <a href='https://www.blackspike.com'>blackspike</a> and licensed under <a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0</a>
