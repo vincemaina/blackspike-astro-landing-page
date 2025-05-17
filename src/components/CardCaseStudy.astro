@@ -9,19 +9,19 @@ const { caseStudy } = Astro.props
 
   <!-- Case study -->
   <article
-    class:list={["relative isolate flex h-full w-full gap-6 overflow-hidden rounded-xl pt-[30rem] @xl:justify-end @4xl:pt-0", caseStudy.bg]}>
+    class:list={["relative isolate flex h-full w-full gap-6 overflow-hidden rounded-xl pt-[20rem] md:pt-[30rem] @xl:justify-end @4xl:pt-0", caseStudy.bg]}>
 
     <img
       src={ caseStudy.image }
       alt={ caseStudy.image_alt }
-      class="absolute top-[4cqb] left-8 mx-auto w-[90cqi] rounded-xl drop-shadow-[0_100px_100px_rgba(0,0,0,0.5)] @4xl:w-[60cqi] group-hover:scale-105 transition-transform duration-3000 ease-bs-spring"
+      class="absolute top-[4cqb] left-8 mx-auto w-[90cqi] rounded-xl drop-shadow-[0_100px_100px_rgba(0,0,0,0.5)] @4xl:w-[60cqi] group-hover:scale-105 transition-transform duration-3000 ease-bs-spring transform-gpu"
       loading="lazy"
       height="1024"
       width="768"
     >
 
     <!-- Content -->
-    <div class="z-10 flex h-full flex-col gap-6 bg-bs-surface-0/98 p-10 @4xl:w-1/2 @4xl:p-20">
+    <div class="z-10 flex h-full flex-col gap-6 bg-bs-surface-0/98 p-6 @4xl:w-1/2 @4xl:p-20">
 
       <!-- Header -->
       <header class="flex flex-col gap-3">
