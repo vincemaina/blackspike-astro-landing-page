@@ -14,10 +14,10 @@ import credits from "../data/credits.json"
     <h1 class="bs-h1">{ credits.title }</h1>
 
     <!-- Content -->
-    <div class="text-pretty bs-mt-sm bs-body-text text-2xl" set:html={ credits.content }></div>
+    <div class="text-pretty bs-mt-sm bs-body-text md:text-2xl" set:html={ credits.content }></div>
 
     <!-- Credits -->
-    <ul role="list" class="bs-mt-sm text-xl [&_li]:ps-1 [&_li]:py-2 list-inside">
+    <ul role="list" class="bs-mt-sm md:text-xl [&_li]:ps-1 [&_li]:py-2 list-inside">
 
       { credits.list.map( ({ item }) => <li set:html={item} /> )}
 
