@@ -10,13 +10,13 @@ Rather than let it gather dust, we decided to modernise it, try out some fresh n
 
 We hope you find it useful!
 
-## Made by blackspike.com
-
-[blackspike design](https://www.blackspike.com) is a web design & development team specialising in Astro, Vue, Nuxt & Wordpress websites
-
 ## Live demo https://astro-theme.blackspike.com
 
 Theme and 3D images are all by <a href='https://www.blackspike.com'>blackspike</a> and licensed under <a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0</a>
+
+## Created by blackspike
+
+[blackspike design](https://www.blackspike.com) is a web design & development team specialising in Astro, Vue, Nuxt & Wordpress websites
 
 ## Astro 5 Features
 
@@ -52,11 +52,16 @@ Theme and 3D images are all by <a href='https://www.blackspike.com'>blackspike</
 
 [<img src="public/theme-preview/blackspike-theme-full.webp" alt="full page preview" style="max-width: 100%; height: auto; width: 100%;" width="1600">](public/theme-preview/blackspike-theme-full.webp)
 
+## Credits
+
+- Fake logos by [uicontent.co](https://uicontent.co/svg-dummy-logo/)
+- Quote avatar person by [thispersondoesnotexist.com](https://thispersondoesnotexist.com/)
+- Misc icons and logo from [icones.js.org](https://icones.js.org/) by [@antfu](https://github.com/antfu)
+- Carousel powered by [swiperjs.com](https://swiperjs.com/)
 
 ## Tags
 
 #tailwind #tailwind4 #astro #landingPage #css #html #swiper #dark #theme
-
 
 ## Commands
 
