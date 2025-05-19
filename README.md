@@ -10,6 +10,8 @@ Rather than let it gather dust, we decided to modernise it, try out some fresh n
 
 You can read more about how we built it and the cool new tech we used [on our blog post](https://www.blackspike.com/blog/blackspike-free-astro-tailwind-theme/).
 
+Now available as an official Astro theme! [Download it from the Astro themes page](https://portal.astro.build/themes/blackspike-astro-landing-page/)
+
 ## Live demo https://astro-theme.blackspike.com
 
 We hope you find it useful!
