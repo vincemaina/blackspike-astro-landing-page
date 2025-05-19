@@ -39,20 +39,20 @@ summary::-webkit-details-marker {
 
 details {
 
-@media (prefers-reduced-motion: no-preference) {
-  interpolate-size: allow-keywords;
-}
+  @media (prefers-reduced-motion: no-preference) {
+    interpolate-size: allow-keywords;
+  }
 
-&::details-content {
-  block-size: 0;
-  opacity: 0;
-  overflow-y: clip;
-  transition: content-visibility 1s allow-discrete, opacity 1s, block-size 1s var(--ease-bs-bounce);
-}
+  &::details-content {
+    block-size: 0;
+    opacity: 0;
+    overflow-y: clip;
+    transition: content-visibility 1s allow-discrete, opacity 1s, block-size 1s var(--ease-bs-bounce);
+  }
 
-&[open]::details-content {
-  block-size: auto;
-  opacity: 1;
-}
+  &[open]::details-content {
+    block-size: auto;
+    opacity: 1;
+  }
 }
 </style>

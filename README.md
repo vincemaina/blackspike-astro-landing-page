@@ -8,6 +8,8 @@ We built this page as the first version of our own website, [blackspike.com](htt
 
 Rather than let it gather dust, we decided to modernise it, try out some fresh new CSS features and give it back to the Astro community.
 
+You can read more about how we built it and the cool new tech we used [on our blog post](https://www.blackspike.com/blog/blackspike-free-astro-tailwind-theme/).
+
 ## Live demo https://astro-theme.blackspike.com
 
 We hope you find it useful!
