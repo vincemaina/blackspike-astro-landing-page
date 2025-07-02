@@ -24,7 +24,7 @@ const { settings } = Astro.props
       <!-- Links -->
       { settings.nav.map( item =>
 
-        <a class="bs-btn !bg-transparent before:translate-y-full hover:before:translate-y-0" href={item.link}>
+        <a class="bs-btn !bg-transparent before:translate-y-full hover:before:translate-y-0 !text-lime-50" href={item.link}>
           { item.title }
         </a>
 
@@ -33,7 +33,7 @@ const { settings } = Astro.props
     </nav>
 
     <!-- CTA -->
-    <button type="button" class="min-w-32 bs-btn !bg-white !text-black" onclick="demo.showModal()">
+    <button type="button" class="min-w-32 bs-btn !bg-lime-50 !text-black" onclick="demo.showModal()">
 
       { settings.demo.title }
 

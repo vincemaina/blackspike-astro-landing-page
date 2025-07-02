@@ -9,7 +9,7 @@ import services from "../data/services.json"
   <!-- Header -->
   <header class="bs-container flex items-center justify-between">
 
-    <h2 class="bs-h2">Our Services</h2>
+    <h2 class="bs-h2 !font-black">Our Services</h2>
 
     <!-- Buttons -->
     <nav class="bs-st-button-wrapper flex justify-center gap-4">
@@ -60,7 +60,7 @@ import services from "../data/services.json"
 
             <div class="space-y-3">
               {/* Title */}
-              <h2 class={`bs-h2 !text-5xl`} set:html={ item.title } />
+              <h2 class={`bs-h2 !text-5xl !font-black`} set:html={ item.title } />
               <div class={`text-xl ${item.colours.text}`} set:html={ item.subtitle } />
             </div>
 
