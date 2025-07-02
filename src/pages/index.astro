@@ -14,7 +14,6 @@ import TestimonialsSection from "../components/TestimonialsSection.astro"
 
 import caseStudies from "../data/case_studies.json"
 import clients from "../data/clients.json"
-import faq from "../data/faq.json"
 import services from "../data/services.json"
 import home from "../data/home.json"
 import pricing from "../data/pricing.json"
@@ -60,10 +59,7 @@ import testimonials from "../data/testimonials.json"
     title={ home.pricing_title }
   />
 
-  <FaqSection
-    faq={ faq }
-    title={ home.faq_title }
-  />
+  <FaqSection />
 
   <NewsletterSection newsletter={newsletter} />
 

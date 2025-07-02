@@ -1,15 +1,14 @@
 ---
-
 import DetailsAccordion from "./DetailsAccordion.astro"
-
-const { title, faq } = Astro.props
-
+import faq from "../data/faq.json"
 ---
 
 <section class="bs-container bs-mt-lg grid" id="faq">
 
   <!-- Title -->
-  { title && <h2 class="bs-h2 text-center md:text-left" set:html={ title } />}
+  <h2 class="bs-h2 text-center md:text-left" >
+    Frequently Asked Questions
+  </h2>
 
   <!-- FAQ -->
   <div class="grid gap-2 bs-mt-sm">
