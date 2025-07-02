@@ -3,24 +3,42 @@
     "title": "Web Applications",
     "subtitle": "Interactive platforms—right in the browser",
     "content": "We build custom web apps your users can access instantly—no installs, no friction. Whether it’s a portal, dashboard, or booking system, it runs smoothly in any modern browser, and yes—it’s SEO-friendly and ready to scale.",
-    "cta": "Call us about branding",
+    "cta": "Our Web Services",
     "image": "/content-images/blackspike-wallpaper-01.avif",
-    "image_alt": ""
+    "image_alt": "",
+    "colours": {
+      "bgFrom": "from-lime-900/90",
+      "bgTo": "to-lime-400/60",
+      "button": "!bg-lime-950",
+      "text": "text-lime-200"
+    }
   },
   {
     "title": "Mobile Apps (iOS & Android)",
     "subtitle": "One build. Two platforms. No extra fluff.",
     "content": "We create mobile apps that run beautifully on both iOS and Android—without doubling your development cost. Great for businesses with returning users who want quick, reliable access from their phone.",
-    "cta": "Book a website review call",
+    "cta": "Our Mobile Services",
     "image": "/content-images/blackspike-wallpaper-02.avif",
-    "image_alt": ""
+    "image_alt": "",
+    "colours": {
+      "bgFrom": "from-amber-900/90",
+      "bgTo": "to-amber-400/60",
+      "button": "!bg-amber-950",
+      "text": "text-amber-200"
+    }
   },
   {
     "title": "Desktop Apps (Windows, macOS & more)",
     "subtitle": "Bring your app to the big screen",
     "content": "Need an app your team or customers can install on their computers? We build desktop-ready software that feels modern and runs great—ideal for internal tools or more immersive workflows.",
-    "cta": "Our 3D Services",
+    "cta": "Our Desktop Services",
     "image": "/content-images/blackspike-wallpaper-03.avif",
-    "image_alt": ""
+    "image_alt": "",
+    "colours": {
+      "bgFrom": "from-cyan-900/90",
+      "bgTo": "to-cyan-400/60",
+      "button": "!bg-cyan-950",
+      "text": "text-cyan-200"
+    }
   }
 ]
