@@ -8,8 +8,8 @@ import "../assets/css/buttons.css"
 
 import { Font } from 'astro:assets';
 
-import Image from "astro/components/Image.astro"
-import bg_image from "../assets/theme-images/hero-image.jpg"
+// import Image from "astro/components/Image.astro"
+// import bg_image from "../assets/theme-images/hero-image.jpg"
 
 import global_settings from "../data/global_settings.json"
 
@@ -46,6 +46,36 @@ const { title, description } = Astro.props
     <Font cssVariable="--font-inter" preload />
     <Font cssVariable="--font-inter-display" preload />
 
+    <script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "Organization",
+				"name": "AppSites",
+				"url": "https://appsites.co.uk",
+				// "logo": "https://appsites.dev/logo.png",
+				"description": "AppSites is a one-person development studio building custom web, mobile, and desktop applications for small to medium-sized businesses. Transparent pricing, polished design, and no agency bloat.",
+				"founder": {
+					"@type": "Person",
+					"name": "Vince",
+					"jobTitle": "Founder & Developer",
+					"url": "https://appsites.co.uk"
+				},
+				// "sameAs": [
+				// 	"https://www.linkedin.com/in/your-profile",
+				// 	"https://github.com/your-username"
+				// ],
+				"address": {
+					"@type": "PostalAddress",
+					"addressLocality": "London",
+					"addressCountry": "United Kingdom"
+				},
+				"contactPoint": {
+					"@type": "ContactPoint",
+					"contactType": "customer support",
+					"email": "vincemaina@hey.com"
+				}
+			}
+		</script>
   </head>
 
   <body id="top">
