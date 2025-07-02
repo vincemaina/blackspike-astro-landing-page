@@ -1,35 +1,52 @@
 ---
-
-import Image from "astro/components/Image.astro"
-import hero_screens from "../assets/theme-images/hero-screens.png"
-
-const { settings, title, content } = Astro.props
-
+import Image from "astro/components/Image.astro";
+import hero_screens from "../assets/theme-images/hero-screens.png";
 ---
 
 <section class="bs-container py-6 flex flex-col lg:flex-row items-center">
-
   <!-- Content -->
-  <div class="flex flex-col gap-6 lg:max-w-lg w-full py-16">
-
+  <div class="flex flex-col gap-6 lg:max-w-2xl w-full py-16">
     <!-- Title -->
-    <h1 class="bs-h1" set:html={ title } />
+    <h1 class="bs-h1">
+      Custom
+      <span class="text-lime-300">Web</span>, 
+      <span class="text-amber-300">Mobile</span> &
+      <span class="text-cyan-300">Desktop</span>
+      App Development
+    </h1>
 
     <!-- Content -->
-    <div class="bs-body-text xl:text-xl flex flex-col gap-4 [&_p]:last:text-bs-foreground-dark" set:html={ content } />
+    <div
+      class="bs-body-text xl:text-xl flex flex-col gap-4 [&_p]:last:text-bs-foreground-dark"
+    >
+      <p><strong>Got an idea for a web, mobile, or desktop app? Let's make it real.</strong></p>
+      <p class="text-[16px]">
+        We make it easy to turn your app idea into a real, working product.
+        Whether it’s fully sketched out or just a rough concept, we’ll help you
+        shape the details and build something that feels just right—for your
+        business, your users, and your budget. No confusing jargon, no runaway
+        costs—just a clear plan and great results.
+      </p>
+    </div>
 
     <!-- CTA -->
-    <button type="button" class="bs-btn self-start bs-mt-sm" onclick="demo.showModal()">
-      { settings.demo.cta }
+    <button
+      type="button"
+      class="bs-btn self-start bs-mt-sm"
+      onclick="demo.showModal()"
+    >
+      Start Building
     </button>
-
   </div>
 
   <!-- Image -->
   <figure class="flex place-content-center -mt-20 lg:mt-0">
-
-    <Image src={ hero_screens } format="avif" quality="high" alt="Screens showing phone, tablet and desktop views of our website" loading="eager" />
-
+    <Image
+      src={hero_screens}
+      format="avif"
+      quality="high"
+      alt="Screens showing phone, tablet and desktop views of our website"
+      loading="eager"
+    />
   </figure>
-
 </section>
