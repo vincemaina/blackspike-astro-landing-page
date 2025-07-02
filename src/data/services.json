@@ -7,8 +7,8 @@
     "image": "/content-images/blackspike-wallpaper-01.avif",
     "image_alt": "",
     "colours": {
-      "bgFrom": "from-lime-900/90",
-      "bgTo": "to-lime-400/60",
+      "bgFrom": "from-lime-700/90",
+      "bgTo": "to-lime-300/60",
       "button": "!bg-lime-950",
       "text": "text-lime-200"
     }
@@ -21,24 +21,38 @@
     "image": "/content-images/blackspike-wallpaper-02.avif",
     "image_alt": "",
     "colours": {
-      "bgFrom": "from-amber-900/90",
-      "bgTo": "to-amber-400/60",
+      "bgFrom": "from-orange-700/90",
+      "bgTo": "to-amber-300/60",
       "button": "!bg-amber-950",
       "text": "text-amber-200"
     }
   },
   {
-    "title": "Desktop Apps (Windows, macOS & more)",
+    "title": "Hosting & Maintenance",
+    "subtitle": "Want someone to keep things ticking post-launch?",
+    "content": "For all our services, we offer optional ongoing support. We can manage your hosting, help with small tweaks, post-launch updates, or even content changes like adding blog posts or product pages. No fuss, just solid support.",
+    "cta": "Our Desktop Services",
+    "image": "/content-images/blackspike-wallpaper-03.avif",
+    "image_alt": "",
+    "colours": {
+      "bgFrom": "from-red-800/90",
+      "bgTo": "to-red-300/60",
+      "button": "!bg-red-950",
+      "text": "text-red-200"
+    }
+  },
+  {
+    "title": "Desktop Apps",
     "subtitle": "Bring your app to the big screen",
     "content": "Need an app your team or customers can install on their computers? We build desktop-ready software that feels modern and runs great—ideal for internal tools or more immersive workflows.",
     "cta": "Our Desktop Services",
     "image": "/content-images/blackspike-wallpaper-03.avif",
     "image_alt": "",
     "colours": {
-      "bgFrom": "from-cyan-900/90",
-      "bgTo": "to-cyan-400/60",
-      "button": "!bg-cyan-950",
-      "text": "text-cyan-200"
+      "bgFrom": "from-emerald-700/90",
+      "bgTo": "to-emerald-300/60",
+      "button": "!bg-emerald-950",
+      "text": "text-emerald-200"
     }
   }
 ]

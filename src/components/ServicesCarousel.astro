@@ -56,16 +56,16 @@ import services from "../data/services.json"
           </div>
 
           {/* Content */}
-          <figcaption class="z-10 p-6 sm:p-10 md:p-20 max-w-3xl flex flex-col gap-8 h-full">
+          <figcaption class="z-10 p-6 sm:p-10 md:p-20 max-w-4xl flex flex-col gap-8 h-full">
 
             <div class="space-y-3">
               {/* Title */}
               <h2 class={`bs-h2 !text-5xl !font-black`} set:html={ item.title } />
-              <div class={`text-xl ${item.colours.text}`} set:html={ item.subtitle } />
+              <div class={`text-2xl ${item.colours.text}`} set:html={ item.subtitle } />
             </div>
 
             {/* Intro */}
-            <div class={`bs-body-text text-pretty flex-1 text-md max-w-md`} set:html={ item.content } />
+            <div class={`bs-body-text text-pretty flex-1 text-xl max-w-md !leading-7`} set:html={ item.content } />
 
             {/* Cta */}
             <button type="button"
