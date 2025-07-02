@@ -1,57 +1,86 @@
----
-
-const { content, image, cite, role } = Astro.props
-
----
-
 <!-- Quote -->
-<blockquote class="bs-container bs-mt-lg font-display text-3xl md:text-5xl lg:text-6xl flex flex-col gap-6" id="quote">
-
+<blockquote
+  class="bs-container bs-mt-lg font-display text-3xl md:text-5xl lg:text-6xl flex flex-col gap-6 max-w-3xl"
+  id="quote"
+>
   <!-- Text -->
-  <div set:html={ content } class="text-bs-foreground-dark bs-st-quote [&_strong]:font-normal font-display" />
+  <div
+    class="text-bs-foreground-dark bs-st-quote [&_strong]:font-normal font-display"
+  >
+    A one-man dev shop that actually gives a damn.
+  </div>
+
+  <div class="text-xl space-y-5">
+    <p>
+      Hi, I’m Vince — founder, developer, and your main point of contact here at
+      AppSites. Since 2022 I’ve been building custom web and mobile apps for
+      small businesses, startups, and solo founders. I started AppSites because
+      I love building things that work—and because I saw how bloated and
+      impersonal traditional agencies can be.
+    </p>
+
+    <p>
+      Unlike big agencies, there’s no middle layer here. When you get in touch,
+      you’re talking to the person who’s actually building your app. That means
+      faster communication, fewer misunderstandings, and a smoother, more
+      personal experience from start to finish.
+    </p>
+
+    <p>
+      I mostly work with small to medium-sized businesses — people who have a
+      great idea, or a simple tool in mind that will improve their customer
+      experience, boost conversions, or just make life a bit easier. Maybe it’s
+      a booking system. A customer portal. A cleaner way to manage repeat
+      orders. Whatever it is, you don’t need a six-figure agency to make it
+      happen.
+    </p>
+
+    <p>
+      With Appsites, you’ll never be left in the dark. You’ll never be upsold
+      something you don’t need. And you’ll always know exactly what you're
+      paying for.
+    </p>
+
+    <p>Let’s build something great — together.</p>
+  </div>
 
   <!-- Cite -->
   <cite class="not-italic flex gap-4 items-center">
-
     <img
-      src={ image }
+      src={"/content-images/quote-man.avif"}
       class="h-12 w-12 rounded-full"
       alt=""
       width="128"
       height="128"
       loading="lazy"
-    >
+    />
 
     <div class="text-bs-foreground-light bs-h3">
-      { cite } <span class="text-bs-foreground-dark">{ role }</span>
+      Vince Maina <span class="text-bs-foreground-dark">Founder, Appsites</span>
     </div>
-
   </cite>
-
 </blockquote>
 
-
 <style is:global>
+  /* Lighten text when scrolling into view */
 
-/* Lighten text when scrolling into view */
-
-@keyframes white-text {
-  to { color: var(--color-bs-foreground-light); }
-}
-
-@supports (animation-timeline: view()) {
-  .bs-st-quote strong {
-    animation: white-text linear;
-    animation-timeline: view(20% block);
-    animation-fill-mode: forwards;
+  @keyframes white-text {
+    to {
+      color: var(--color-bs-foreground-light);
+    }
   }
-}
 
-@supports (not (animation-timeline: view())) {
-  .bs-st-quote strong {
-    color: var(--color-bs-foreground-light)
+  @supports (animation-timeline: view()) {
+    .bs-st-quote strong {
+      animation: white-text linear;
+      animation-timeline: view(20% block);
+      animation-fill-mode: forwards;
+    }
   }
-}
 
+  @supports (not (animation-timeline: view())) {
+    .bs-st-quote strong {
+      color: var(--color-bs-foreground-light);
+    }
+  }
 </style>
-
