@@ -1,9 +1,7 @@
 ---
 
 import Arrow from '../assets/theme-images/icon-arrow.svg'
-
-const { title, services } = Astro.props
-
+import services from "../data/services.json"
 ---
 
 <section id="services">
@@ -11,7 +9,7 @@ const { title, services } = Astro.props
   <!-- Header -->
   <header class="bs-container flex items-center justify-between">
 
-    { title && <h2 class="bs-h2">{ title }</h2>}
+    <h2 class="bs-h2">Our Services</h2>
 
     <!-- Buttons -->
     <nav class="bs-st-button-wrapper flex justify-center gap-4">
@@ -49,7 +47,7 @@ const { title, services } = Astro.props
 
           {/* BG image */}
           <img src={ item.image } alt={ item.image_alt } loading="lazy"
-            class="opacity-20 md:opacity-80 rounded-xl grayscale overflow-hidden w-full h-full object-cover object-left absolute inset-0"
+            class="opacity-20 md:opacity-80 rounded-xl overflow-hidden w-full h-full object-cover object-left absolute inset-0"
             height="1024" width="768" />
 
           {/* Gradient mask */}
@@ -60,8 +58,11 @@ const { title, services } = Astro.props
           {/* Content */}
           <figcaption class="z-10 p-6 sm:p-10 md:p-20 max-w-xl flex flex-col gap-6 h-full">
 
-            {/* Title */}
-            <h2 class="bs-h2" set:html={ item.title } />
+            <div class="space-y-2">
+              {/* Title */}
+              <h2 class="bs-h2" set:html={ item.title } />
+              <div class="font-bold" set:html={ item.subtitle } />
+            </div>
 
             {/* Intro */}
             <div class="bs-body-text text-pretty flex-1" set:html={ item.content } />
@@ -115,7 +116,9 @@ const swiper = new Swiper('.js-fc-swiper', {
 })
 
 // Add event listeners to buttons
+// @ts-ignore
 prev_btn.addEventListener('click', () => swiper.slidePrev())
+// @ts-ignore
 next_btn.addEventListener('click', () => swiper.slideNext())
 
 // Trigger swiper
